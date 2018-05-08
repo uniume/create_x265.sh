@@ -1,5 +1,5 @@
 #!/bin/sh
-FFMPEG_COMMAND="time ffmpeg -loglevel fatal"
+FFMPEG_COMMAND="ffmpeg -loglevel fatal"
 FFMPEG_PRESET="-c:v libx265 -preset slow -crf 24 -aspect 16:9 -c:a libopus -ac 2"
 
 case $# in
